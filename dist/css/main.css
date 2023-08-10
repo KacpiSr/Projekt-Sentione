@@ -2088,14 +2088,14 @@ header {
   position: relative; }
   .front-page .hero .background-overlay {
     background-repeat: no-repeat !important;
-    background-position: right !important; }
+    background-position: right !important;
+    background-size: contain !important; }
   .front-page .hero .background-overlay {
     position: absolute;
-    right: 300px;
+    right: 330px;
     top: 0;
     width: 100%;
-    height: 100%;
-    opacity: 0.9; }
+    height: 100%; }
     @media (max-width: 1580px) {
       .front-page .hero .background-overlay {
         right: 200px; } }
