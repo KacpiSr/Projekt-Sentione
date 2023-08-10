@@ -4,7 +4,6 @@
     </div>
 </footer>
 
-
 <script>
 <?php
 if ($data = get_field('end_date_and_time_of_event')) : ?>
@@ -12,34 +11,6 @@ if ($data = get_field('end_date_and_time_of_event')) : ?>
 <?php endif;
 ?>
 </script>
-
-<!-- <script>
-let initialParent = null;
-
-function moveDiv() {
-  const sourceDiv = document.getElementById("transfer-timer");
-  const destinationDiv = document.getElementById("destination-timer");
-  const screenWidth = window.innerWidth;
-
-  const thresholdWidth = 991;
-  const resetWidth = 991;
-
-  if (screenWidth < thresholdWidth) {
-    if (!destinationDiv.contains(sourceDiv)) {
-      initialParent = sourceDiv.parentElement;
-      destinationDiv.appendChild(sourceDiv);
-    }
-  } else if (initialParent) {
-    initialParent.appendChild(sourceDiv);
-    initialParent = null;
-  }
-}
-window.onload = moveDiv;
-window.onresize = moveDiv;
-
-</script> -->
-
-
 
 <?php wp_footer(); ?>
 

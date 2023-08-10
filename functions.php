@@ -23,7 +23,7 @@ get_template_part('function-catalog/svg-upload');
 
 /*****************************************************************************************************/
 /* ACF BLOCKS */
-// get_template_part('function-catalog/acf-blocks');
+get_template_part('function-catalog/acf-blocks');
 
 /*****************************************************************************************************/
 /* ACF STYLING */
