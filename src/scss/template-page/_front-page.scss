@@ -20,7 +20,6 @@ header {
     position: relative;
     .background-overlay {
       position: absolute;
-      // right: 330px;
       right: 300px;
       top: 0;
       width: 100%;
@@ -43,7 +42,6 @@ header {
     }
     .giveaway {
       background-color: $light-gray;
-      // padding-top: 170px;
       padding-top: 250px;
       @media (max-width: $lg) {
         padding-top: 100px;
@@ -66,9 +64,6 @@ header {
             font-size: 20px;
             line-height: 32px;
           }
-        }
-        @media (max-width: $lg) {
-          // padding: 0 80px;
         }
         @media (max-width: $sm){
           padding: 0;
