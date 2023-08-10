@@ -1,0 +1,20 @@
+footer{
+    background-color: $light-gray;
+    padding-top: 75px;
+    padding-bottom: 70px;
+    .footer-content{
+        gap: 3px;
+        display: flex;
+        justify-content: center;
+        color: $gray-blue;
+        line-height: 24px;
+        font-size: 14px;
+        a{
+            color: $light-blue;
+            text-decoration: none;
+        }
+        @media (max-width: $lg){
+            display: block;
+        }
+    }
+}
