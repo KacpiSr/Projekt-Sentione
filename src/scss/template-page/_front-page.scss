@@ -1,7 +1,6 @@
 body {
   font-family: $sansone;
 }
-
 header {
   background-color: $light-gray;
 }
@@ -16,7 +15,6 @@ header {
 .header-logo {
   padding-top: 40px;
 }
-
 .front-page {
   .hero {
     position: relative;
@@ -74,7 +72,6 @@ header {
           padding: 0;
         }
       }
-
       .timer-box {
         @media (max-width: $lg) {
           padding: 0;
@@ -123,7 +120,6 @@ header {
             border-radius: 5px;
             min-width: fit-content;
           }
-
           .data {
             position: relative;
             left: 100px;
@@ -131,7 +127,6 @@ header {
             display: flex;
             justify-content: space-between;
             color: $dark-blue;
-
             @media (max-width: $xxl) {
               left: 50px;
             }
@@ -147,7 +142,6 @@ header {
               flex-direction: column;
               gap: 20px;
             }
-
             &__insta {
               &--bottom {
                 .insta-link {
@@ -156,7 +150,6 @@ header {
                 }
               }
             }
-
             &__timer {
               margin-top: 15px;
               &--bottom {
@@ -174,7 +167,6 @@ header {
                 }
               }
             }
-
             &__insta,
             &__timer,
             &__ending {
